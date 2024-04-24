@@ -1,6 +1,10 @@
 ## Example project for go issue #
 
-This projects demonstrates that [#66500](https://github.com/golang/go/issues/66500) and [#66018](https://github.com/golang/go/issues/66018) is not entirely solved yet.
+This project is the demo project for [go issue #67000](https://github.com/golang/go/issues/67000) to demonstrate that [#66500](https://github.com/golang/go/issues/66500) and [#66018](https://github.com/golang/go/issues/66018) is not entirely solved yet.
+
+### [NEW] Suggested fix:
+
+`gomobile` has to put the `Info.plist` in an additional directory + include some more entries [as pointed out in my comment here](https://github.com/golang/go/issues/67000#issuecomment-2073399403)
 
 ### Steps to reproduce:
 
